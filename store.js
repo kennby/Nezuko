@@ -28,19 +28,19 @@ var img2 = 'https://telegra.ph/file/b9b4821c3f78b7ce6d3aa.jpg'
 global.sityImg = [img, img1, img2, img3, img4, img5, img6]
 
 //Enlaces
-global.yt = 'https://www.youtube.com/@Azami_YT'
-global.ig = 'https://instagram.com/azami_dev'
-global.md = 'https://github.com/AzamiJs/CuriosityBot-MD'
-global.paypal = 'https://paypal.me/Azami19'
-global.git = 'https://github.com/AzamiJs'
-global.nn = 'https://chat.whatsapp.com/LCAUbkf5kUz7jSxO6FADMU' //Grupo ofc
-global.nnn = 'https://chat.whatsapp.com/J1R402WH1N0Hdl3S0NDEYu' //Curiosity global
-global.nnnn = 'https://chat.whatsapp.com/KLpYFsitkgzJ15YQxZrBqO' //colaboración multi bots
-global.nnnnn = 'https://chat.whatsapp.com/E9qJfvlLjENKAxnhII9rao' //Colaboración CuriosityBot - NovaBot 
-global.nnnnnn = 'https://chat.whatsapp.com/KlRcEfl8snBEEOA0JXzw5A' //enlace curiosity
-global.channel = 'https://whatsapp.com/channel/0029VaB4w2ZFHWpwgyEe3w2k'
-global.email = 'thecuriositybot@gmail.com'
-global.channel2 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
+global.yt = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E'
+global.ig = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E'
+global.md = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E'
+global.paypal = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E'
+global.git = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E'
+global.nn = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E' //Grupo ofc
+global.nnn = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E' //Curiosity global
+global.nnnn = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E' //colaboración multi bots
+global.nnnnn = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E' //Colaboración CuriosityBot - NovaBot 
+global.nnnnnn = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E' //enlace curiosity
+global.channel = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E'
+global.email = 'nezuko@gmail.com'
+global.channel2 = 'https://whatsapp.com/channel/0029VaGCrm1GJP89vbstE11E'
 global.linkSity = [yt, ig, md, paypal, git, channel, channel2]
 
 //Raíz
@@ -60,10 +60,10 @@ global.done = '✅'
 global.error = '❌'
 
 //Cargando
-global.wait = '*■□□□□ 20%*'
-global.waitt = '*■■■□□ 60%*'
-global.waittt = '*■■■■□ 90%*'
-global.waitttt = '*■■■■■ 100%*'
+global.wait = '*■□□□□*'
+global.waitt = '*■■■□□*'
+global.waittt = '*■■■■□*'
+global.waitttt = '*■■■■■*'
 
 //fake
 global.fsizedoc = '999999'
