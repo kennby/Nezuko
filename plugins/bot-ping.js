@@ -20,20 +20,20 @@ let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats
 let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
 
 
-let texto = `*🚀 Velocidad*
+let texto = `*𝐯𝐞𝐥𝐨𝐜𝐢𝐝𝐚𝐝*
 • ${latensi.toFixed(4)}
 
-*⏰ Actividad*
+*𝐚𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝*
 • ${muptime}
 
-*💌 Chats*
+*𝐜𝐡𝐚𝐭𝐬*
 • ${chats.length} *Chats privados*
 • ${groups.length} *Grupos*
 
-*💻 Servidor*
+*𝐬𝐞𝐫𝐯𝐢𝐝𝐨𝐫*
 • *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
 
-conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'CURIOSITY - BOT - MD', thumbnailUrl: 'https://telegra.ph/file/6cbf9148b572711e9b000.jpg', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
+conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: '𝐍𝐄𝐙𝐔𝐊𝐎 𝐁𝐎𝐓', thumbnailUrl: 'https://telegra.ph/file/50993d084ad8c9dea7b87.jpg', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
 
 }
 handler.help = ['ping']
